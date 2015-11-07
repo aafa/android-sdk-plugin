@@ -1,5 +1,7 @@
-> app/android:package
+> app/android:packageDebug
 $ exists app/bin/output/app-debug.apk
+> app/android:packageRelease
+$ exists app/bin/output/app-release-unsigned.apk
 > last app/android:apkbuild
 > check-for-properties
 > check-for-bin
